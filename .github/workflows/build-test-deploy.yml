@@ -21,4 +21,4 @@ jobs:
       - name: use node.js
         uses: actions/setup-node@v3
       - run: npm install
-      - run: npm run build
+      - run: npm test
